@@ -60,7 +60,7 @@ jobs:
         uses: docker/login-action@v2
         with:
           username: daniiaguado
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: "Cocoyo@2058"
 
       - name: Push Docker image to Docker Hub
         run: docker push daniiaguado/hola-mundo-multilenguaje:${{ github.sha }}
